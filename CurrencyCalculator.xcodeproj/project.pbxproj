@@ -14,6 +14,9 @@
 		EB4AB5DD28EB3A0B0031DAC8 /* CurrencyCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4AB5DC28EB3A0B0031DAC8 /* CurrencyCalculatorTests.swift */; };
 		EB4AB5E728EB3A0B0031DAC8 /* CurrencyCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4AB5E628EB3A0B0031DAC8 /* CurrencyCalculatorUITests.swift */; };
 		EB4AB5E928EB3A0B0031DAC8 /* CurrencyCalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4AB5E828EB3A0B0031DAC8 /* CurrencyCalculatorUITestsLaunchTests.swift */; };
+		EB4AB5FA28EB3B320031DAC8 /* RequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4AB5F928EB3B320031DAC8 /* RequestProtocol.swift */; };
+		EB4AB5FC28EB3CD60031DAC8 /* RequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4AB5FB28EB3CD60031DAC8 /* RequestType.swift */; };
+		EB4AB5FE28EB3F1B0031DAC8 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4AB5FD28EB3F1B0031DAC8 /* APIConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		EB4AB5E228EB3A0B0031DAC8 /* CurrencyCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurrencyCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB4AB5E628EB3A0B0031DAC8 /* CurrencyCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyCalculatorUITests.swift; sourceTree = "<group>"; };
 		EB4AB5E828EB3A0B0031DAC8 /* CurrencyCalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyCalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EB4AB5F928EB3B320031DAC8 /* RequestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestProtocol.swift; sourceTree = "<group>"; };
+		EB4AB5FB28EB3CD60031DAC8 /* RequestType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestType.swift; sourceTree = "<group>"; };
+		EB4AB5FD28EB3F1B0031DAC8 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +101,7 @@
 		EB4AB5C928EB3A0A0031DAC8 /* CurrencyCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				EB4AB5F528EB3AE10031DAC8 /* Core */,
 				EB4AB5CA28EB3A0A0031DAC8 /* CurrencyCalculatorApp.swift */,
 				EB4AB5CC28EB3A0A0031DAC8 /* ContentView.swift */,
 				EB4AB5CE28EB3A0B0031DAC8 /* Assets.xcassets */,
@@ -127,6 +134,40 @@
 				EB4AB5E828EB3A0B0031DAC8 /* CurrencyCalculatorUITestsLaunchTests.swift */,
 			);
 			path = CurrencyCalculatorUITests;
+			sourceTree = "<group>";
+		};
+		EB4AB5F528EB3AE10031DAC8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				EB4AB5F628EB3AED0031DAC8 /* Data */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		EB4AB5F628EB3AED0031DAC8 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				EB4AB5F728EB3AF50031DAC8 /* api */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		EB4AB5F728EB3AF50031DAC8 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				EB4AB5FD28EB3F1B0031DAC8 /* APIConstants.swift */,
+				EB4AB5F828EB3B170031DAC8 /* request */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		EB4AB5F828EB3B170031DAC8 /* request */ = {
+			isa = PBXGroup;
+			children = (
+				EB4AB5F928EB3B320031DAC8 /* RequestProtocol.swift */,
+				EB4AB5FB28EB3CD60031DAC8 /* RequestType.swift */,
+			);
+			path = request;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +300,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB4AB5FA28EB3B320031DAC8 /* RequestProtocol.swift in Sources */,
+				EB4AB5FE28EB3F1B0031DAC8 /* APIConstants.swift in Sources */,
 				EB4AB5CD28EB3A0A0031DAC8 /* ContentView.swift in Sources */,
 				EB4AB5CB28EB3A0A0031DAC8 /* CurrencyCalculatorApp.swift in Sources */,
+				EB4AB5FC28EB3CD60031DAC8 /* RequestType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
