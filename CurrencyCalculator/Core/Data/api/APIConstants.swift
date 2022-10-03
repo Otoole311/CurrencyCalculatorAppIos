@@ -9,5 +9,5 @@ import Foundation
 
 enum APIConstants {
     static let host = ""
-    static let APIKEY = ""//hello
+    static let APIKEY = ""//hellog
 }
