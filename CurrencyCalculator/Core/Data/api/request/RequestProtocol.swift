@@ -65,7 +65,7 @@ extension RequestProtocol {
       }
 
       guard let url = components.url
-      else { throw NetworkError.invalidURL }
+      else { throw NetworkError.invalidURL } //
 
       // 4
       var urlRequest = URLRequest(url: url)
