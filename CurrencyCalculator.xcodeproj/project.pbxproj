@@ -17,6 +17,18 @@
 		EB4AB5FA28EB3B320031DAC8 /* RequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4AB5F928EB3B320031DAC8 /* RequestProtocol.swift */; };
 		EB4AB5FC28EB3CD60031DAC8 /* RequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4AB5FB28EB3CD60031DAC8 /* RequestType.swift */; };
 		EB4AB5FE28EB3F1B0031DAC8 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4AB5FD28EB3F1B0031DAC8 /* APIConstants.swift */; };
+		EB5D767328EEF03300660BC4 /* Symbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5D767228EEF03300660BC4 /* Symbol.swift */; };
+		EB5D767628EEF10600660BC4 /* SymbolsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5D767528EEF10600660BC4 /* SymbolsRequest.swift */; };
+		EB5D767A28EEF57F00660BC4 /* AllCurrencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5D767928EEF57F00660BC4 /* AllCurrencies.swift */; };
+		EB5D767D28EF198300660BC4 /* AccessTokenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5D767C28EF198300660BC4 /* AccessTokenManager.swift */; };
+		EB5D768528EF1B0F00660BC4 /* APIManagerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5D768428EF1B0F00660BC4 /* APIManagerMock.swift */; };
+		EB5D768728EF1B9200660BC4 /* AccessTokenTestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5D768628EF1B9200660BC4 /* AccessTokenTestHelper.swift */; };
+		EB5D768A28EF1CAA00660BC4 /* APIToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5D768928EF1CAA00660BC4 /* APIToken.swift */; };
+		EBA0BAC428EB4F7800B18F74 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA0BAC328EB4F7800B18F74 /* NetworkError.swift */; };
+		EBA0BAC728EB528B00B18F74 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA0BAC628EB528B00B18F74 /* APIManager.swift */; };
+		EBA0BAC928EB54D000B18F74 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA0BAC828EB54D000B18F74 /* RequestManager.swift */; };
+		EBA0BACC28EB704B00B18F74 /* DataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA0BACB28EB704B00B18F74 /* DataParser.swift */; };
+		EBA0BACF28EC8D8900B18F74 /* AuthTokenRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA0BACE28EC8D8900B18F74 /* AuthTokenRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +63,18 @@
 		EB4AB5F928EB3B320031DAC8 /* RequestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestProtocol.swift; sourceTree = "<group>"; };
 		EB4AB5FB28EB3CD60031DAC8 /* RequestType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestType.swift; sourceTree = "<group>"; };
 		EB4AB5FD28EB3F1B0031DAC8 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		EB5D767228EEF03300660BC4 /* Symbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbol.swift; sourceTree = "<group>"; };
+		EB5D767528EEF10600660BC4 /* SymbolsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolsRequest.swift; sourceTree = "<group>"; };
+		EB5D767928EEF57F00660BC4 /* AllCurrencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCurrencies.swift; sourceTree = "<group>"; };
+		EB5D767C28EF198300660BC4 /* AccessTokenManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessTokenManager.swift; sourceTree = "<group>"; };
+		EB5D768428EF1B0F00660BC4 /* APIManagerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManagerMock.swift; sourceTree = "<group>"; };
+		EB5D768628EF1B9200660BC4 /* AccessTokenTestHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessTokenTestHelper.swift; sourceTree = "<group>"; };
+		EB5D768928EF1CAA00660BC4 /* APIToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIToken.swift; sourceTree = "<group>"; };
+		EBA0BAC328EB4F7800B18F74 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		EBA0BAC628EB528B00B18F74 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		EBA0BAC828EB54D000B18F74 /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		EBA0BACB28EB704B00B18F74 /* DataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataParser.swift; sourceTree = "<group>"; };
+		EBA0BACE28EC8D8900B18F74 /* AuthTokenRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthTokenRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +125,8 @@
 		EB4AB5C928EB3A0A0031DAC8 /* CurrencyCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				EB4AB5F528EB3AE10031DAC8 /* Core */,
+				EB5D767728EEF52B00660BC4 /* views */,
+				EB4AB5F528EB3AE10031DAC8 /* core */,
 				EB4AB5CA28EB3A0A0031DAC8 /* CurrencyCalculatorApp.swift */,
 				EB4AB5CC28EB3A0A0031DAC8 /* ContentView.swift */,
 				EB4AB5CE28EB3A0B0031DAC8 /* Assets.xcassets */,
@@ -122,6 +147,7 @@
 		EB4AB5DB28EB3A0B0031DAC8 /* CurrencyCalculatorTests */ = {
 			isa = PBXGroup;
 			children = (
+				EB5D767E28EF1AC600660BC4 /* Tests */,
 				EB4AB5DC28EB3A0B0031DAC8 /* CurrencyCalculatorTests.swift */,
 			);
 			path = CurrencyCalculatorTests;
@@ -136,26 +162,31 @@
 			path = CurrencyCalculatorUITests;
 			sourceTree = "<group>";
 		};
-		EB4AB5F528EB3AE10031DAC8 /* Core */ = {
+		EB4AB5F528EB3AE10031DAC8 /* core */ = {
 			isa = PBXGroup;
 			children = (
-				EB4AB5F628EB3AED0031DAC8 /* Data */,
+				EB4AB5F628EB3AED0031DAC8 /* data */,
 			);
-			path = Core;
+			path = core;
 			sourceTree = "<group>";
 		};
-		EB4AB5F628EB3AED0031DAC8 /* Data */ = {
+		EB4AB5F628EB3AED0031DAC8 /* data */ = {
 			isa = PBXGroup;
 			children = (
+				EB5D767028EEF01500660BC4 /* domain */,
 				EB4AB5F728EB3AF50031DAC8 /* api */,
 			);
-			path = Data;
+			path = data;
 			sourceTree = "<group>";
 		};
 		EB4AB5F728EB3AF50031DAC8 /* api */ = {
 			isa = PBXGroup;
 			children = (
 				EB4AB5FD28EB3F1B0031DAC8 /* APIConstants.swift */,
+				EB5D768828EF1C8700660BC4 /* model */,
+				EB5D767B28EF197000660BC4 /* token */,
+				EBA0BACA28EB702900B18F74 /* parser */,
+				EBA0BAC528EB527000B18F74 /* network */,
 				EB4AB5F828EB3B170031DAC8 /* request */,
 			);
 			path = api;
@@ -164,10 +195,143 @@
 		EB4AB5F828EB3B170031DAC8 /* request */ = {
 			isa = PBXGroup;
 			children = (
+				EB5D767428EEF0CC00660BC4 /* symbols */,
+				EBA0BACD28EC8D5B00B18F74 /* auth */,
 				EB4AB5F928EB3B320031DAC8 /* RequestProtocol.swift */,
 				EB4AB5FB28EB3CD60031DAC8 /* RequestType.swift */,
 			);
 			path = request;
+			sourceTree = "<group>";
+		};
+		EB5D767028EEF01500660BC4 /* domain */ = {
+			isa = PBXGroup;
+			children = (
+				EB5D767128EEF01E00660BC4 /* model */,
+			);
+			path = domain;
+			sourceTree = "<group>";
+		};
+		EB5D767128EEF01E00660BC4 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				EB5D767228EEF03300660BC4 /* Symbol.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		EB5D767428EEF0CC00660BC4 /* symbols */ = {
+			isa = PBXGroup;
+			children = (
+				EB5D767528EEF10600660BC4 /* SymbolsRequest.swift */,
+			);
+			path = symbols;
+			sourceTree = "<group>";
+		};
+		EB5D767728EEF52B00660BC4 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				EB5D767828EEF53F00660BC4 /* currency */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		EB5D767828EEF53F00660BC4 /* currency */ = {
+			isa = PBXGroup;
+			children = (
+				EB5D767928EEF57F00660BC4 /* AllCurrencies.swift */,
+			);
+			path = currency;
+			sourceTree = "<group>";
+		};
+		EB5D767B28EF197000660BC4 /* token */ = {
+			isa = PBXGroup;
+			children = (
+				EB5D767C28EF198300660BC4 /* AccessTokenManager.swift */,
+			);
+			path = token;
+			sourceTree = "<group>";
+		};
+		EB5D767E28EF1AC600660BC4 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EB5D767F28EF1ACF00660BC4 /* Core */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		EB5D767F28EF1ACF00660BC4 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				EB5D768028EF1AD600660BC4 /* data */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		EB5D768028EF1AD600660BC4 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				EB5D768128EF1ADF00660BC4 /* api */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		EB5D768128EF1ADF00660BC4 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				EB5D768328EF1AF100660BC4 /* helper */,
+				EB5D768228EF1AEA00660BC4 /* mock */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		EB5D768228EF1AEA00660BC4 /* mock */ = {
+			isa = PBXGroup;
+			children = (
+				EB5D768428EF1B0F00660BC4 /* APIManagerMock.swift */,
+			);
+			path = mock;
+			sourceTree = "<group>";
+		};
+		EB5D768328EF1AF100660BC4 /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				EB5D768628EF1B9200660BC4 /* AccessTokenTestHelper.swift */,
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
+		EB5D768828EF1C8700660BC4 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				EB5D768928EF1CAA00660BC4 /* APIToken.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		EBA0BAC528EB527000B18F74 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				EBA0BAC628EB528B00B18F74 /* APIManager.swift */,
+				EBA0BAC328EB4F7800B18F74 /* NetworkError.swift */,
+				EBA0BAC828EB54D000B18F74 /* RequestManager.swift */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		EBA0BACA28EB702900B18F74 /* parser */ = {
+			isa = PBXGroup;
+			children = (
+				EBA0BACB28EB704B00B18F74 /* DataParser.swift */,
+			);
+			path = parser;
+			sourceTree = "<group>";
+		};
+		EBA0BACD28EC8D5B00B18F74 /* auth */ = {
+			isa = PBXGroup;
+			children = (
+				EBA0BACE28EC8D8900B18F74 /* AuthTokenRequest.swift */,
+			);
+			path = auth;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,8 +467,18 @@
 				EB4AB5FA28EB3B320031DAC8 /* RequestProtocol.swift in Sources */,
 				EB4AB5FE28EB3F1B0031DAC8 /* APIConstants.swift in Sources */,
 				EB4AB5CD28EB3A0A0031DAC8 /* ContentView.swift in Sources */,
+				EBA0BACF28EC8D8900B18F74 /* AuthTokenRequest.swift in Sources */,
+				EB5D768A28EF1CAA00660BC4 /* APIToken.swift in Sources */,
+				EBA0BAC928EB54D000B18F74 /* RequestManager.swift in Sources */,
+				EB5D767D28EF198300660BC4 /* AccessTokenManager.swift in Sources */,
+				EB5D767A28EEF57F00660BC4 /* AllCurrencies.swift in Sources */,
+				EBA0BAC428EB4F7800B18F74 /* NetworkError.swift in Sources */,
+				EB5D767328EEF03300660BC4 /* Symbol.swift in Sources */,
 				EB4AB5CB28EB3A0A0031DAC8 /* CurrencyCalculatorApp.swift in Sources */,
 				EB4AB5FC28EB3CD60031DAC8 /* RequestType.swift in Sources */,
+				EB5D767628EEF10600660BC4 /* SymbolsRequest.swift in Sources */,
+				EBA0BAC728EB528B00B18F74 /* APIManager.swift in Sources */,
+				EBA0BACC28EB704B00B18F74 /* DataParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +486,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB5D768728EF1B9200660BC4 /* AccessTokenTestHelper.swift in Sources */,
+				EB5D768528EF1B0F00660BC4 /* APIManagerMock.swift in Sources */,
 				EB4AB5DD28EB3A0B0031DAC8 /* CurrencyCalculatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
