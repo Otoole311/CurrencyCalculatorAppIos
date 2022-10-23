@@ -29,7 +29,7 @@ class RequestManager: RequestManagerProtocol {
     func perform<T: Decodable>(_ request: RequestProtocol)
       async throws -> T {
         // 1
-        let authToken = try await requestAccessToken()
+        let authToken = ""//try await requestAccessToken()
         // 2
         let data = try await apiManager.perform(request,
           authToken: authToken)
@@ -39,19 +39,19 @@ class RequestManager: RequestManagerProtocol {
         return decoded
     }
     
-    func requestAccessToken() async throws -> String {
-        
-//        if accessTokenManager.isTokenValid() {
-//            return accessTokenManager.fetchToken()
-//        }
-        
-        // 1
-        let data = try await apiManager.requestToken()
-        //let token: APIToken = try parser.parse(data: data)
-        let token = ""
-        return token
-        
-//        try accessTokenManager.refreshWith(apiToken: token)
-//          return token.bearerAccessToken
-    }
+//    func requestAccessToken() async throws -> String {
+//
+////        if accessTokenManager.isTokenValid() {
+////            return accessTokenManager.fetchToken()
+////        }
+//
+//        // 1
+//        let data = try await apiManager.requestToken()
+//        //let token: APIToken = try parser.parse(data: data)
+//        let token = ""
+//        return token
+//
+////        try accessTokenManager.refreshWith(apiToken: token)
+////          return token.bearerAccessToken
+//    }
 }

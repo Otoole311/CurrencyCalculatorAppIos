@@ -8,6 +8,6 @@
 import Foundation
 
 struct SymbolsContainer: Decodable{
-    let succes: Bool
+    let success: Bool
     let symbols: [String: String]
 }

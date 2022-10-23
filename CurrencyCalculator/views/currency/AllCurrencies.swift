@@ -19,7 +19,11 @@ struct AllCurrencies: View {
             try await requestManager.perform(SymbolsRequest.getAllSymbols)
             self.symbols = symbolsContainer.symbols
             await stopLoading()
-        }catch{}
+        }
+        catch
+        {
+            print(error)
+        }
     }
     
     //MARK: Body
@@ -27,7 +31,7 @@ struct AllCurrencies: View {
         
         NavigationView{
             List{
-                ForEach([String](symbols.keys), id: \.self){
+                ForEach([String](symbols.values), id: \.self){
                     symbol in
                     Text("\(symbol)")
                 }

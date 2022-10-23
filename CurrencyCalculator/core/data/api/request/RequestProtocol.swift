@@ -46,7 +46,7 @@ extension RequestProtocol {
   }
 
   var headers: [String: String] {
-    [:]
+    ["apikey": APIConstants.APIKEY]
   }
     
 

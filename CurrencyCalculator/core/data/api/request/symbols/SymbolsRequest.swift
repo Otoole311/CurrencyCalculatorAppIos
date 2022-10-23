@@ -11,7 +11,7 @@ enum SymbolsRequest:RequestProtocol{
     case getAllSymbols
     
     var path: String{
-        "exchangerates_data/symbols"
+        "/exchangerates_data/symbols"
     }
     
     var requestType: RequestType{
